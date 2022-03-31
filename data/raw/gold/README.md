@@ -75,9 +75,11 @@ Tab 4 (`Organism`) includes the matadata needed.
 
 By converting the `.xlsx` file to `.tsv` we can edit the `preparation` script to work with those files instead. 
 
+One can do that from the command line by running: 
 
-
-
+```bash
+ssconvert -S goldData.xlsx goldData.csv
+```
 
 
 
